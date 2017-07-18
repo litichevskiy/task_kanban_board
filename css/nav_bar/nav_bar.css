@@ -1,0 +1,32 @@
+
+.nav_bar{
+    width: 100%;
+    padding: 7px 12px;
+    border-bottom: 1px solid rgb(198, 189, 189);
+    border-right: 1px solid rgb(198, 189, 189);
+}
+
+.list_nav_bar{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+}
+
+.item_list_nav_bar{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.item_list_nav_bar .button{
+    background: #47b347;
+}

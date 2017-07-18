@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+input:focus,
+button:focus,
+button:active,
+textarea:focus{
+    outline: none;
+}
+
+nav{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

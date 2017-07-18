@@ -1,0 +1,29 @@
+@import 'reset.css';
+@import 'nav_bar/nav_bar.css';
+@import 'form_add_card/form_add_card.css';
+@import 'do_it_component/do_it_component.css';
+
+.container_app,
+.container_bloks{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.container_bloks{
+    top: 58px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.wrapper{
+    position: relative;
+    height: 100%;
+    max-width: 1800px;
+    margin: auto;
+    border-left: 1px solid lightgrey;
+}
