@@ -4,6 +4,5 @@ module.exports = {
     output:{
         filename:"./app/bundle.js"
     },
-
     watch: true
 }
